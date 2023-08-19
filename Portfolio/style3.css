@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ruwudu:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    
+    color: #333;
+}
+
+
+.nav-bar {
+    background-color: #5C4B99;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.logo {
+    font-size: 34px;
+    font-family: 'Ruwudu', serif;
+    
+}
+
+.options {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+.options li {
+    margin-right: 20px;
+}
+
+.options a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.options li a:hover {
+    
+    color: #FFB84C;
+  }
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #9F91CC;
+}
+
+.home-text {
+    flex: 1;
+    text-align: center;
+    margin-right: 50px;
+}
+.social-media{
+    font-size: 40px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.images {
+    text-align: center;
+    flex: 1;
+}
+
+.girl {
+    width: 400px;
+    height: 450px;
+    border-radius: 40%;
+    margin-top: -30px; 
+}
+
+.home h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.home span {
+    font-family: 'Merriweather', serif;
+    color: #3D246C;
+}
+
+.home-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+.home-details i {
+    color: black;
+    margin-right: 10px;
+    
+}
+
+
+.about {
+    background-color: #5C4B99;
+    padding: 50px;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.about-me {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #FFB84C;
+    text-align: center; 
+    font-family: 'Patua One', cursive;
+}
+
+
+.images1 {
+    flex-basis: 40%;
+    text-align: left;
+    display: inline-flex;
+    gap: 120px;
+}
+
+.girl2 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+   
+}
+
+
+.aboutme {
+    flex-basis: 55%;
+    font-size: 18px;
+    line-height: 1.6;
+    color:white;
+    text-align: left;
+    flex: wrap;
+    margin-top: 70px;
+    row-gap: 50px;
+    margin-bottom: 2px;
+    
+}
+
+.resume {
+    display: inline;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 240px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.button-container {
+    margin-top: 30px; /* Adjust this value to change the gap */
+}
+.resume:hover {
+    background-color: #D27685;
+}
+
+.my-skills{
+    background-color:#9F91CC;
+    height: 600px;
+    
+
+}
+.skills-heading {
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: #FFB84C;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+ 
+    
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 40px;
+    
+  }
+  .sub-heading{
+    color: #41195a;
+    font-family: 'Dai Banna SIL', serif;
+  }
+  .skill {
+    display: inline-block;
+    max-width: 300px;
+    font-size: 20px;
+    
+    color: #7B2869;
+    padding: 30px;
+    border: 5px solid #28093a;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    
+  }
+  
+  .skill:hover {
+    transform: scale(1.05);
+  }
+  .info{
+    text-align: justify;
+  }
+  .skill .sub-heading {
+    margin-bottom: 25px; /* Add a margin between sub-heading and paragraph */
+}
+
+
+.footer {
+    background-color: #5C4B99;
+    
+    padding: 50px 0;
+    text-align: center;
+}
+
+.Contact {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #FFB84C;
+    font-family: 'Patua One', cursive;
+
+}
+
+.footer-col {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+    font-size: 24px;
+}
+
+.left {
+    flex-basis: calc(50% - 30px);
+    text-align: left;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.right {
+    flex-basis: calc(50% - 20px);
+    text-align: right;
+    margin-right: -190px;
+    font-size: 20px;
+}
+
+
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+
+
+
+.text {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: orangered;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #FFB84C;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+
+.head {
+    font-weight: bold;
+}
+
+.title {
+    color: #f4efef;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.field {
+    margin-bottom: 15px;
+    
+}
+
+.field label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.field input,
+.field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.button {
+    
+    text-align: center;
+}
+.send{
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.send:hover{
+    background-color: orangered;
+}
